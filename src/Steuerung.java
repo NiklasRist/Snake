@@ -4,9 +4,9 @@ public class Steuerung{
     public static void main(String[] args) throws Exception {
         char feld[][]= new char[11][41];
         Random rand = new Random();
-        boolean apfel = false;
+        boolean apfel = false; //Apfel=*
         int counter = 0;
-        int posKopf []= {5,20};
+        int posKopf []= {5,20};//posKopf position des schlangenkopfs O
         int richtung[] = {-1,0};
         
         neuesSpielfeld(feld, posKopf);
